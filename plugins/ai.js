@@ -19,6 +19,6 @@ let handler = async (m, { text }) => {
   }
 };
 
-handler.help = handler.command = ["ai"];
+handler.help = handler.command = [""];
 handler.tags = ["ai"];
 export default handler;
